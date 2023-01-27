@@ -22,7 +22,7 @@ SRCS	=	src/main.c		\
 		src/mouv/sa.c		\
 		src/mouv/sb.c		\
 		src/mouv/sc.c		\
-		src/mouv/sd.c		\
+		src/mouv/sd.c
 
 OBJS	=	$(SRCS:.c=.o)
 

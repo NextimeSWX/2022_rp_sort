@@ -8,11 +8,6 @@
 
 #include "stu.h"
 
-
-
-
-#include <stdio.h>
-
 static int highnbr(int *liste_a, int sizea, int tmp)
 {
     int i;

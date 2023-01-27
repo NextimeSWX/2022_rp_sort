@@ -17,6 +17,7 @@
 int add(int i, int j, char *buffer);
 int size_int(char *buffer);
 void algo(int *liste_a, int sizea);
+void stu_convert(int i, char *buffer);
 
 void ra(int *listeA,int nbnbA);
 void rb(int *listeB, int nbnbB);

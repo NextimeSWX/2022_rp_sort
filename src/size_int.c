@@ -8,13 +8,6 @@
 
 #include "stu.h"
 
-
-
-
-
-
-#include <stdio.h>
-
 int size_int(char *buffer)
 {
     int i;
@@ -31,6 +24,5 @@ int size_int(char *buffer)
             }
         }
     }
-    //printf("%d \n", j);
     return (j);
 }

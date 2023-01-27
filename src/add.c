@@ -7,10 +7,6 @@
 
 #include "stu.h"
 
-
-
-#include <stdio.h>
-
 int add(int i, int j, char *buffer)
 {
     int resultat;

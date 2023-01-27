@@ -8,12 +8,6 @@
 
 #include "stu.h"
 
-
-
-
-
-#include <stdio.h>
-
 int main(void)
 {
     struct stat sb;
