@@ -15,8 +15,8 @@ int main(void)
     int fd;
     int i;
 
-    fd = open("nolan.txt", O_RDONLY);
-    i = stat("nolan.txt", &sb);
+    fd = open("liste.txt", O_RDONLY);
+    i = stat("liste.txt", &sb);
     buffer = malloc(sizeof(char) * sb.st_size + 1);
     read(fd, buffer, sb.st_size);
         if (i == -1) {
